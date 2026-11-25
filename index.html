@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f1ee">
+  <meta name="description" content="Organiza tu armario y crea looks que hablan de ti con ClosetVibe.">
+  <title>ClosetVibe | Tu armario, a tu manera</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="ClosetVibe, inicio">Closet<span>Vibe</span><i aria-hidden="true">.</i></a>
+
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+      <a class="nav-link is-active" href="#inicio">Inicio</a>
+      <a class="nav-link" href="#armario">Mi armario</a>
+      <a class="nav-link" href="#crear-look">Crear look</a>
+      <a class="nav-link" href="#favoritos">Favoritos</a>
+      <a class="nav-link" href="#recomendacion">¿Qué me pongo hoy?</a>
+      <a class="nav-link" href="#planificador-semanal">Planificador semanal</a>
+    </nav>
+
+    <a class="header-cta" href="#armario">Mi espacio <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <div id="home-view">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> VÍSTETE DE LO QUE ERES</p>
+        <h1 id="hero-title">Tu estilo,<br>organizado <span>a tu manera.</span></h1>
+        <p class="hero-description">Todas tus prendas en un mismo lugar. Combina, descubre y crea looks que te hacen sentir tú.</p>
+        <a class="primary-button" href="#armario">Explorar mi armario <span aria-hidden="true">↗</span></a>
+        <div class="hero-note"><span class="note-mark" aria-hidden="true">✳</span><span>Menos “no tengo qué ponerme”.<br>Más días sintiéndote increíble.</span></div>
+      </div>
+
+      <div class="wardrobe-scene" aria-label="Algunas prendas de tu armario">
+        <div class="scene-orbit orbit-one"></div>
+        <div class="scene-orbit orbit-two"></div>
+        <div class="scene-label"><span class="label-dot"></span> TU ARMARIO, EN UN SOLO LUGAR</div>
+        <article class="item-card item-dress">
+          <img src="assets/samples/59897.jpg" alt="Vestido largo estampado en amarillo y marrón" fetchpriority="high">
+          <div class="item-caption"><span>Vestido estampado</span><span class="item-type">PRENDA</span></div>
+        </article>
+        <article class="item-card item-bag">
+          <img src="assets/samples/47359.jpg" alt="Bolso de diario marrón" loading="lazy">
+          <div class="item-caption"><span>Bolso clásico</span><span class="item-type">ACCESORIO</span></div>
+        </article>
+        <article class="item-card item-sneakers">
+          <img src="assets/samples/3505.jpg" alt="Zapatillas deportivas blancas con detalles azules" loading="lazy">
+          <div class="item-caption"><span>Zapatillas</span><span class="item-type">CALZADO</span></div>
+        </article>
+        <article class="item-card item-jacket">
+          <img src="assets/samples/19342.jpg" alt="Blazer negro entallado" loading="lazy">
+          <div class="item-caption"><span>Blazer negro</span><span class="item-type">PRENDA</span></div>
+        </article>
+        <div class="scene-sticker" aria-hidden="true"><span>tu estilo</span><strong>✳</strong><span>sin reglas</span></div>
+      </div>
+      <span class="hero-index" aria-hidden="true">01 — 03</span>
+    </section>
+
+    <section class="moments" id="looks" aria-labelledby="moments-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> INSPIRACIÓN PARA TI</p>
+          <h2 id="moments-title">Crea looks para<br><span>cada momento.</span></h2>
+        </div>
+        <a class="text-link" href="#favoritos">Ver ideas <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="occasion-grid" role="group" aria-label="Diez ocasiones; desplaza horizontalmente en móvil para ver más">
+        <a class="occasion-card occasion-university" href="#crear-look" data-plan-occasion="Universidad"><img src="assets/samples/20091.jpg" alt="Look casual para ir a la universidad" loading="lazy"><span class="occasion-number">01</span><span class="occasion-title">Universidad <span aria-hidden="true">↗</span></span><span class="occasion-tag">CÓMODA Y TÚ</span></a>
+        <a class="occasion-card occasion-dinner" href="#crear-look" data-plan-occasion="Cena"><img src="assets/samples/10406.jpg" alt="Ideas de estilo para una cena" loading="lazy"><span class="occasion-number">02</span><span class="occasion-title">Cena <span aria-hidden="true">↗</span></span><span class="occasion-tag">UN TOQUE ESPECIAL</span></a>
+        <a class="occasion-card occasion-party" href="#crear-look" data-plan-occasion="Fiesta"><img src="assets/samples/6873.jpg" alt="Un look especial para salir de fiesta" loading="lazy"><span class="occasion-number">03</span><span class="occasion-title">Fiesta <span aria-hidden="true">↗</span></span><span class="occasion-tag">HOY BRILLAS TÚ</span></a>
+        <a class="occasion-card occasion-travel" href="#crear-look" data-plan-occasion="Viaje"><img src="assets/samples/12531.jpg" alt="Inspiración para un look de viaje" loading="lazy"><span class="occasion-number">04</span><span class="occasion-title">Viaje <span aria-hidden="true">↗</span></span><span class="occasion-tag">LISTA PARA IR</span></a>
+              <a class="occasion-card" href="#crear-look" data-plan-occasion="Trabajo / entrevista"><img src="assets/samples/extra-25.jpg" alt="Inspiración para trabajo / entrevista" loading="lazy"><span class="occasion-number">05</span><span class="occasion-title">Trabajo / entrevista <span aria-hidden="true">↗</span></span><span class="occasion-tag">CON CONFIANZA</span></a>
+        <a class="occasion-card" href="#crear-look" data-plan-occasion="Comida o brunch"><img src="assets/samples/extra-31.jpg" alt="Inspiración para comida o brunch" loading="lazy"><span class="occasion-number">06</span><span class="occasion-title">Comida o brunch <span aria-hidden="true">↗</span></span><span class="occasion-tag">PLANES SIN PRISA</span></a>
+        <a class="occasion-card" href="#crear-look" data-plan-occasion="Boda / evento formal"><img src="assets/samples/extra-34.jpg" alt="Inspiración para boda / evento formal" loading="lazy"><span class="occasion-number">07</span><span class="occasion-title">Boda / evento formal <span aria-hidden="true">↗</span></span><span class="occasion-tag">UN DÍA ESPECIAL</span></a>
+        <a class="occasion-card" href="#crear-look" data-plan-occasion="Deporte"><img src="assets/samples/3505.jpg" alt="Inspiración para deporte" loading="lazy"><span class="occasion-number">08</span><span class="occasion-title">Deporte <span aria-hidden="true">↗</span></span><span class="occasion-tag">A TU RITMO</span></a>
+        <a class="occasion-card" href="#crear-look" data-plan-occasion="Día de playa"><img src="assets/samples/53130.jpg" alt="Inspiración para día de playa" loading="lazy"><span class="occasion-number">09</span><span class="occasion-title">Día de playa <span aria-hidden="true">↗</span></span><span class="occasion-tag">SOL Y CALMA</span></a>
+        <a class="occasion-card" href="#crear-look" data-plan-occasion="Campo / naturaleza"><img src="assets/samples/sample-complete-033.jpg" alt="Chaqueta impermeable para disfrutar del campo" loading="lazy"><span class="occasion-number">10</span><span class="occasion-title">Campo / naturaleza <span aria-hidden="true">↗</span></span><span class="occasion-tag">RESPIRA Y EXPLORA</span></a>
+</div>
+    </section>
+      </div>
+      <section class="look-view" id="crear-look" aria-labelledby="look-title" hidden>
+        <div class="look-page-heading">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> COMBINA A TU MANERA</p><h2 id="look-title">Crea tu look<span>.</span></h2><p class="look-intro">Elige una ocasión y combina tus prendas favoritas.</p></div>
+        </div>
+        <section class="look-occasion-section" aria-labelledby="occasion-heading">
+          <div class="look-section-heading"><h3 id="occasion-heading">¿Para qué momento?</h3><span class="look-step">01 <i></i> 02</span></div>
+          <div class="look-occasion-options" role="group" aria-label="Seleccionar ocasión">
+            <button class="look-occasion is-selected" type="button" data-occasion="Universidad" aria-pressed="true"><img src="assets/samples/20091.jpg" alt="" loading="lazy"><span>Universidad</span><i aria-hidden="true">↗</i></button>
+            <button class="look-occasion" type="button" data-occasion="Cena" aria-pressed="false"><img src="assets/samples/10406.jpg" alt="" loading="lazy"><span>Cena</span><i aria-hidden="true">↗</i></button>
+            <button class="look-occasion" type="button" data-occasion="Fiesta" aria-pressed="false"><img src="assets/samples/6873.jpg" alt="" loading="lazy"><span>Fiesta</span><i aria-hidden="true">↗</i></button>
+            <button class="look-occasion" type="button" data-occasion="Viaje" aria-pressed="false"><img src="assets/samples/12531.jpg" alt="" loading="lazy"><span>Viaje</span><i aria-hidden="true">↗</i></button>
+                      <button class="look-occasion" type="button" data-occasion="Trabajo / entrevista" aria-pressed="false"><img src="assets/samples/extra-25.jpg" alt="" loading="lazy"><span>Trabajo / entrevista</span><i aria-hidden="true">↗</i></button>
+            <button class="look-occasion" type="button" data-occasion="Comida o brunch" aria-pressed="false"><img src="assets/samples/extra-31.jpg" alt="" loading="lazy"><span>Comida o brunch</span><i aria-hidden="true">↗</i></button>
+            <button class="look-occasion" type="button" data-occasion="Boda / evento formal" aria-pressed="false"><img src="assets/samples/extra-34.jpg" alt="" loading="lazy"><span>Boda / evento formal</span><i aria-hidden="true">↗</i></button>
+            <button class="look-occasion" type="button" data-occasion="Deporte" aria-pressed="false"><img src="assets/samples/3505.jpg" alt="" loading="lazy"><span>Deporte</span><i aria-hidden="true">↗</i></button>
+            <button class="look-occasion" type="button" data-occasion="Día de playa" aria-pressed="false"><img src="assets/samples/53130.jpg" alt="" loading="lazy"><span>Día de playa</span><i aria-hidden="true">↗</i></button>
+            <button class="look-occasion" type="button" data-occasion="Campo / naturaleza" aria-pressed="false"><img src="assets/samples/sample-complete-033.jpg" alt="" loading="lazy"><span>Campo / naturaleza</span><i aria-hidden="true">↗</i></button>
+</div>
+        </section>
+        <section class="outfit-panel" aria-labelledby="outfit-heading">
+          <div class="look-section-heading outfit-heading-row"><div><p class="eyebrow"><span class="eyebrow-line"></span> TU COMBINACIÓN</p><h3 id="outfit-heading">Mi conjunto</h3></div><span class="outfit-occasion-label" id="outfit-occasion-label">Universidad</span></div>
+          <div class="outfit-slots" id="outfit-slots" aria-live="polite"></div>
+          <div class="outfit-empty-hint" id="outfit-empty-hint"><p>Tu conjunto empieza con una prenda. Elígela abajo y añade las piezas que mejor combinen.</p><button class="secondary-button" id="choose-first-item" type="button">Elegir mi primera prenda <span aria-hidden="true">↓</span></button></div>
+          <div class="outfit-actions"><p class="look-message" id="look-message" role="status" aria-live="polite"></p><div class="look-action-buttons"><button class="secondary-button clear-outfit-button" id="clear-outfit" type="button">Limpiar conjunto</button><button class="secondary-button" id="open-editorial" type="button" aria-haspopup="dialog" aria-controls="editorial-dialog">Vista editorial del look</button><button class="primary-button save-look-button" id="save-look" type="button">Guardar look <span aria-hidden="true">↗</span></button></div></div>
+        </section>
+        <section class="look-wardrobe-section" aria-labelledby="look-wardrobe-heading">
+          <div class="look-section-heading"><div><p class="eyebrow"><span class="eyebrow-line"></span> DE TU ARMARIO</p><h3 id="look-wardrobe-heading">Elige tus prendas</h3></div><span class="look-wardrobe-count" id="look-wardrobe-count"></span></div>
+          <div class="look-item-grid" id="look-item-grid" aria-live="polite"></div>
+          <div class="look-empty-wardrobe" id="look-empty-wardrobe" hidden><span aria-hidden="true">✳</span><h3>Un armario lleno de posibilidades</h3><p>Añade una foto de tu ropa o restablece las prendas de ejemplo en Mi armario. Después, selecciona las piezas para tu conjunto.</p><a class="primary-button" href="#armario">Preparar mi armario <span aria-hidden="true">↗</span></a></div>
+        </section>
+      </section>
+
+    <section class="favorites-view" id="favoritos" aria-labelledby="favorites-title" hidden>
+      <div class="favorites-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> TUS COMBINACIONES ESPECIALES</p>
+          <h2 id="favorites-title">Mis looks <span>favoritos.</span></h2>
+          <p class="favorites-intro">Aquí se guardan los conjuntos que has creado, listos para volver a inspirarte.</p>
+        </div>
+        <span class="favorites-count" id="favorites-count" aria-live="polite"></span>
+      </div>
+
+      <div class="favorites-grid" id="favorites-grid"></div>
+      <div class="favorites-empty" id="favorites-empty" hidden>
+        <span class="favorites-empty-mark" aria-hidden="true">✳</span>
+        <h3>Aún no hay looks guardados</h3>
+        <p>Elige prendas en Crear look y pulsa Guardar look. También puedes guardar las propuestas de ¿Qué me pongo hoy?</p>
+        <a class="primary-button" href="#crear-look">Crear mi primer look <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="recommendation-view" id="recomendacion" aria-labelledby="recommendation-title" hidden>
+      <div class="recommendation-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> IDEAS QUE NACEN DE TU ARMARIO</p>
+          <h2 id="recommendation-title">¿Qué me pongo <span>hoy?</span></h2>
+          <p class="recommendation-intro">Cuéntanos tus planes y el tiempo. Encontraremos prendas que ya tienes para armar una propuesta a tu estilo.</p>
+        </div>
+      </div>
+
+      <form class="recommendation-form" id="recommendation-form">
+        <div class="recommendation-fields">
+          <label class="recommendation-field" for="recommendation-occasion">
+            Ocasión
+            <select id="recommendation-occasion" name="occasion"><option>Universidad</option><option>Cena</option><option>Fiesta</option><option>Viaje</option><option>Trabajo / entrevista</option><option>Comida o brunch</option><option>Boda / evento formal</option><option>Deporte</option><option>Día de playa</option><option>Campo / naturaleza</option></select>
+          </label>
+          <label class="recommendation-field" for="recommendation-weather">
+            Clima
+            <select id="recommendation-weather" name="weather"><option>Calor</option><option>Frío</option><option>Lluvia</option><option>Entretiempo</option></select>
+          </label>
+          <label class="recommendation-field" for="recommendation-style">
+            Estilo
+            <select id="recommendation-style" name="style"><option>Casual</option><option>Elegante</option><option>Deportivo</option><option>Fiesta</option></select>
+          </label>
+          <label class="recommendation-field" for="recommendation-color">
+            Color favorito <span>(opcional)</span>
+            <select id="recommendation-color" name="color">
+              <option value="">Sin preferencia</option><option>Rosa</option><option>Lila</option><option>Crema</option><option>Negro</option><option>Blanco</option><option>Azul</option><option>Verde</option><option>Marrón</option><option>Dorado</option>
+            </select>
+          </label>
+        </div>
+        <button class="primary-button recommendation-generate-button" id="recommendation-generate" type="submit">Generar mi look <span aria-hidden="true">↗</span></button>
+      </form>
+
+      <p class="recommendation-message" id="recommendation-message" role="status" aria-live="polite"></p>
+      <div class="recommendation-empty" id="recommendation-empty" hidden>
+        <span aria-hidden="true">✳</span>
+        <h3 id="recommendation-empty-title">Tu próxima idea empieza en el armario</h3>
+        <p id="recommendation-empty-description">Añade una parte superior y una prenda inferior, o un vestido, además de calzado. Después podremos proponerte una combinación.</p>
+        <a class="text-link" href="#armario">Ir a Mi armario <span aria-hidden="true">↗</span></a>
+      </div>
+
+      <section class="recommendation-result" id="recommendation-result" aria-labelledby="recommendation-name" hidden>
+        <div class="recommendation-result-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> UNA IDEA PARA HOY</p>
+            <h3 id="recommendation-name"></h3>
+            <p class="recommendation-reason" id="recommendation-reason"></p>
+          </div>
+          <div class="recommendation-tags"><span id="recommendation-occasion-tag"></span><span id="recommendation-weather-tag"></span><span id="recommendation-style-tag"></span></div>
+        </div>
+        <div class="recommendation-items" id="recommendation-items"></div>
+        <div class="recommendation-actions">
+          <button class="secondary-button" id="recommendation-another" type="button">Generar otra propuesta <span aria-hidden="true">↻</span></button>
+          <button class="secondary-button" id="recommendation-edit" type="button">Editar en Crear look <span aria-hidden="true">↗</span></button>
+          <button class="primary-button" id="recommendation-save" type="button">Guardar en Favoritos <span aria-hidden="true">♡</span></button>
+          <button class="secondary-button" id="recommendation-download" type="button">Descargar recomendación <span aria-hidden="true">↓</span></button>
+        </div>
+        <p class="recommendation-feedback" id="recommendation-feedback" role="status" aria-live="polite"></p>
+      </section>
+    </section>
+
+    <section class="wardrobe-view" id="armario" aria-labelledby="wardrobe-title" hidden>
+      <div class="wardrobe-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> TU COLECCIÓN PERSONAL</p>
+          <h2 id="wardrobe-title">Mi armario<span>.</span></h2>
+          <p class="wardrobe-intro">Todas tus prendas, listas para inspirar tu próximo look.</p>
+        </div>
+        <div class="wardrobe-heading-actions"><button class="secondary-button" id="restore-samples" type="button">Restablecer prendas de ejemplo</button><button class="primary-button add-item-button" id="open-item-dialog" type="button">
+          Añadir prenda <span aria-hidden="true">＋</span>
+        </button></div>
+      </div>
+
+      <section class="wardrobe-overview" aria-label="Resumen del armario">
+        <div class="wardrobe-overview-stats">
+          <div class="wardrobe-overview-stat">
+            <span>Total de prendas</span>
+            <strong id="wardrobe-summary-total">0</strong>
+          </div>
+          <div class="wardrobe-overview-stat">
+            <span>Categoría más utilizada</span>
+            <strong id="wardrobe-summary-category">—</strong>
+          </div>
+          <div class="wardrobe-overview-stat">
+            <span>Color predominante</span>
+            <strong id="wardrobe-summary-color">—</strong>
+          </div>
+        </div>
+        <div class="wardrobe-distribution">
+          <span class="wardrobe-distribution-title">Distribución por categoría</span>
+          <div class="wardrobe-category-bars" id="wardrobe-category-bars" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <div class="wardrobe-toolbar">
+        <div class="category-filters" role="group" aria-label="Filtrar prendas por categoría">
+          <button class="filter-button is-selected" type="button" data-filter="Todas" aria-pressed="true">Todas</button>
+          <button class="filter-button" type="button" data-filter="Camisetas" aria-pressed="false">Camisetas</button>
+          <button class="filter-button" type="button" data-filter="Pantalones" aria-pressed="false">Pantalones</button>
+          <button class="filter-button" type="button" data-filter="Faldas" aria-pressed="false">Faldas</button>
+          <button class="filter-button" type="button" data-filter="Vestidos" aria-pressed="false">Vestidos</button>
+          <button class="filter-button" type="button" data-filter="Chaquetas" aria-pressed="false">Chaquetas</button>
+          <button class="filter-button" type="button" data-filter="Calzado" aria-pressed="false">Calzado</button>
+          <button class="filter-button" type="button" data-filter="complementos" aria-pressed="false">Bolsos y Accesorios</button>
+        </div>
+        <p class="wardrobe-count" id="wardrobe-count" aria-live="polite"></p>
+      </div>
+
+      <div class="wardrobe-grid" id="wardrobe-grid" aria-live="polite"></div>
+      <div class="wardrobe-empty" id="wardrobe-empty" hidden>
+        <span aria-hidden="true">✳</span>
+        <h3 id="empty-title">Aún no hay prendas</h3>
+        <p id="empty-description">Añade una prenda para empezar a crear tu colección.</p>
+        <button class="primary-button" id="empty-add-item" type="button">Añadir mi primera prenda <span aria-hidden="true">＋</span></button>
+      </div>
+    </section>
+    <section class="planner-view" id="planificador-semanal" aria-labelledby="planner-title" hidden>
+      <div class="planner-heading">
+        <div><p class="eyebrow"><span class="eyebrow-line"></span> SIETE DÍAS, TU ESTILO</p><h2 id="planner-title">Planificador <span>semanal.</span></h2><p class="planner-intro">Elige un favorito para cada día y deja espacio para tus planes.</p></div>
+        <div class="planner-toolbar"><button class="secondary-button" id="planner-clear" type="button">Limpiar semana</button><button class="primary-button" id="planner-download" type="button">Descargar semana <span aria-hidden="true">↓</span></button></div>
+      </div>
+      <p class="planner-summary" id="planner-summary" role="status"></p>
+      <div class="planner-empty" id="planner-empty" hidden><span aria-hidden="true">✳</span><h3>Tu semana empieza con un favorito</h3><p>Crea un conjunto y pulsa Guardar look para encontrarlo aquí. Después podrás elegir qué ponerte cada día.</p><a class="primary-button" href="#crear-look">Crear mi primer look <span aria-hidden="true">↗</span></a></div>
+      <div class="planner-grid" id="planner-grid" aria-label="Looks de lunes a domingo"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer">
+    <a class="brand footer-brand" href="#inicio">Closet<span>Vibe</span><i aria-hidden="true">.</i></a>
+    <p>Hecho para vestirte de ti. <span aria-hidden="true">✳</span></p>
+    <a class="footer-top" href="#inicio">Volver arriba ↑</a>
+    <span class="footer-year">© 2026 CLOSETVIBE</span>
+  </footer>
+
+  <dialog class="item-dialog" id="item-dialog" aria-labelledby="dialog-title">
+    <form class="item-form" id="item-form">
+      <div class="dialog-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> UNA NUEVA FAVORITA</p>
+          <h2 id="dialog-title">Añadir prenda</h2>
+        </div>
+        <button class="dialog-close" id="close-item-dialog" type="button" aria-label="Cerrar ventana">×</button>
+      </div>
+
+      <label class="image-picker" for="item-image">
+        <img class="image-preview" id="image-preview" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Vista previa de la prenda" hidden>
+        <span class="image-placeholder" id="image-placeholder">
+          <span class="upload-symbol" aria-hidden="true">＋</span>
+          <strong>Sube una imagen</strong>
+          <small>JPG, PNG o WEBP</small>
+        </span>
+        <input id="item-image" name="image" type="file" accept="image/*" aria-label="Seleccionar foto de la prenda" aria-describedby="form-message" required>
+      </label>
+
+      <div class="form-fields">
+        <label class="form-field form-field-wide" for="item-name">
+          Nombre de la prenda
+          <input id="item-name" name="name" type="text" maxlength="60" placeholder="Ej. Camisa de lino" required>
+        </label>
+        <label class="form-field" for="item-category">
+          Categoría
+          <select id="item-category" name="category" required>
+            <option value="" disabled selected>Elige una categoría</option>
+            <option>Camisetas</option>
+            <option>Pantalones</option>
+            <option>Faldas</option>
+            <option>Vestidos</option>
+            <option>Chaquetas</option>
+            <option>Calzado</option>
+            <option>Bolsos</option>
+            <option>Accesorios</option>
+          </select>
+        </label>
+        <label class="form-field" for="item-color">
+          Color
+          <input id="item-color" name="color" type="text" maxlength="30" placeholder="Ej. Rosa empolvado" required>
+        </label>
+        <label class="form-field form-field-wide" for="item-style">
+          Estilo
+          <select id="item-style" name="style" required>
+            <option value="" disabled selected>Elige un estilo</option>
+            <option>Casual</option>
+            <option>Elegante</option>
+            <option>Deportivo</option>
+            <option>Fiesta</option>
+          </select>
+        </label>
+      </div>
+
+      <p class="form-message" id="form-message" role="status"></p>
+      <div class="dialog-actions">
+        <button class="secondary-button" id="cancel-item-dialog" type="button">Cancelar</button>
+        <button class="primary-button" id="save-item" type="submit">Guardar prenda <span aria-hidden="true">↗</span></button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog class="editorial-dialog" id="editorial-dialog" aria-labelledby="editorial-title" aria-describedby="editorial-style">
+    <div class="editorial-heading"><div><p class="eyebrow">EL ARTE DE COMBINAR</p><h2 id="editorial-title">Tu look en un vistazo</h2><p id="editorial-style"></p></div><button class="dialog-close" id="editorial-close" type="button" aria-label="Cerrar vista editorial">×</button></div>
+    <div class="editorial-context"><span id="editorial-occasion"></span><div class="editorial-palette" id="editorial-palette" role="group" aria-label="Paleta de colores del conjunto"></div></div>
+    <div class="editorial-stage" id="editorial-stage" role="group" aria-label="Composición editorial de las prendas seleccionadas"></div>
+    <div class="editorial-footer"><div class="editorial-details" id="editorial-details" role="status" aria-live="polite"></div><div class="editorial-actions"><button class="secondary-button" id="editorial-done" type="button">Volver al conjunto</button><button class="primary-button" id="editorial-download" type="button">Descargar look <span aria-hidden="true">↓</span></button></div><p class="editorial-feedback" id="editorial-feedback" role="status"></p></div>
+  </dialog>
+  <dialog class="planner-dialog" id="planner-dialog" aria-labelledby="planner-dialog-title" aria-describedby="planner-dialog-description">
+    <form id="planner-form" class="planner-form">
+      <div class="dialog-heading"><div><p class="eyebrow">UN DÍA A TU MANERA</p><h2 id="planner-dialog-title">Planificar el lunes</h2></div><button class="dialog-close" id="planner-close" type="button" aria-label="Cerrar planificador">×</button></div>
+      <p id="planner-dialog-description">Elige un look favorito y añade una nota si lo necesitas.</p>
+      <label class="form-field" for="planner-look">Look favorito<select id="planner-look" name="look" required></select></label>
+      <div class="planner-preview" id="planner-preview" aria-label="Prendas del look seleccionado"></div>
+      <label class="form-field" for="planner-note">Ocasión o nota <span>(opcional)</span><input id="planner-note" name="note" type="text" maxlength="120" placeholder="Ej. Cena con amigas" aria-describedby="planner-note-help"></label>
+      <p class="planner-note-help" id="planner-note-help">Hasta 120 caracteres. La ocasión original del look se conservará.</p>
+      <p class="form-message" id="planner-form-message" role="status"></p>
+      <div class="dialog-actions"><button class="secondary-button" id="planner-cancel" type="button">Cancelar</button><button class="primary-button" id="planner-save" type="submit">Guardar planificación <span aria-hidden="true">✓</span></button></div>
+    </form>
+  </dialog>
+  <dialog class="confirm-dialog" id="confirm-dialog" aria-labelledby="confirm-title" aria-describedby="confirm-description">
+    <form method="dialog">
+      <span class="confirm-mark" aria-hidden="true">✳</span>
+      <h2 id="confirm-title">¿Confirmas el cambio?</h2>
+      <p id="confirm-description"></p>
+      <div class="confirm-actions"><button class="secondary-button" id="confirm-cancel" value="cancel" autofocus>Cancelar</button><button class="primary-button" id="confirm-accept" value="accept">Confirmar</button></div>
+    </form>
+  </dialog>
+  <div class="toast-region" id="toast-region" role="status" aria-live="polite" aria-atomic="false" aria-relevant="additions"></div>
+  <script src="wardrobe-expansion.js"></script>
+  <script src="occasions.js"></script>
+  <script src="app.js"></script>
+  <script src="planner.js"></script>
+  <script src="editorial.js"></script>
+</body>
+</html>
