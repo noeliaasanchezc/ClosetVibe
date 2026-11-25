@@ -1,0 +1,653 @@
+{
+  "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small",
+  "photos": [
+    {
+      "id": "sample-1",
+      "file": "assets/samples/3954.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/b56e261f9206aa95e42c43f4e62d0e5a_images.jpg"
+    },
+    {
+      "id": "sample-2",
+      "file": "assets/samples/26993.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/6220c2b37ad0a42be62fb92b1d6c7e14_images.jpg"
+    },
+    {
+      "id": "sample-3",
+      "file": "assets/samples/59897.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/Femella-Women-Yellow-Dress_3d227e50c7848fd7a20a306189f9039b_images.jpg"
+    },
+    {
+      "id": "sample-4",
+      "file": "assets/samples/19342.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/a17db8e6c96c44467950a37c02e56465_images.jpg"
+    },
+    {
+      "id": "sample-5",
+      "file": "assets/samples/4147.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/bcb241296d93b8198038571a64f99b97_images.jpg"
+    },
+    {
+      "id": "sample-6",
+      "file": "assets/samples/47359.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/b14c7bf275c6edca3e849200fb7cbf6c_images.jpg"
+    },
+    {
+      "id": "sample-7",
+      "file": "assets/samples/26960.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/45ddbc6a15140556214e15923244755b_images.jpg"
+    },
+    {
+      "id": "sample-8",
+      "file": "assets/samples/57138.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/Elle-Women-Brown-Trousers_a7f66d28a9214c62dc8073fa66146018_images.jpg"
+    },
+    {
+      "id": "sample-9",
+      "file": "assets/samples/32388.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/0f32f6d2f1ff2396e6b6ed3d419c0e6c_images.jpg"
+    },
+    {
+      "id": "sample-10",
+      "file": "assets/samples/56214.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/Estelle-Earrings_7271511bf974f34b0c0e80431617e034_images.jpg"
+    },
+    {
+      "id": "sample-11",
+      "file": "assets/samples/13360.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/25f4bbfce59c7d56a07115e40a443c6a_images.jpg"
+    },
+    {
+      "id": "sample-12",
+      "file": "assets/samples/25143.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/Lino-Perros-Women-Silver-Clutchd9e16c28cd153b082ef61c4f6765a109_images.jpg"
+    },
+    {
+      "id": "sample-extra-01",
+      "file": "assets/samples/32597.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/9d4d7aa206e22813311c0a0406ce02a4_images.jpg"
+    },
+    {
+      "id": "sample-extra-02",
+      "file": "assets/samples/20091.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/7b44acdb9910967a4d9ce686b7f9dd95_images.jpg"
+    },
+    {
+      "id": "sample-extra-03",
+      "file": "assets/samples/32387.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/2580bc3dbc4f8177e4e3ccade3ad8f1d_images.jpg"
+    },
+    {
+      "id": "sample-extra-04",
+      "file": "assets/samples/12531.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/7c6e7824bf89b87b28d1e400d6483590_images.jpg"
+    },
+    {
+      "id": "sample-extra-05",
+      "file": "assets/samples/20232.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/8ff33caa9e123b80435179cc2745eee3_images.jpg"
+    },
+    {
+      "id": "sample-extra-06",
+      "file": "assets/samples/57136.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/Elle-Women-Black-Trousers_70c834b2f56887df3ce0d292beb39fad_images.jpg"
+    },
+    {
+      "id": "sample-extra-07",
+      "file": "assets/samples/32591.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/ONLY-Women-Pink-Skirt_b8676441cbeaa7168f9ad77e16eb21e9_images.jpg"
+    },
+    {
+      "id": "sample-extra-08",
+      "file": "assets/samples/13514.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/01bf9a5f3c477de825cf2b9f499991f2_images.jpg"
+    },
+    {
+      "id": "sample-extra-09",
+      "file": "assets/samples/57137.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/Elle-Women-Khaki-Trousers_e9fc02c1c68b1394d92050e65a1158dc_images.jpg"
+    },
+    {
+      "id": "sample-extra-10",
+      "file": "assets/samples/6873.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/e5da26ddf18c9b985c5609f0baca8048_images.jpg"
+    },
+    {
+      "id": "sample-extra-11",
+      "file": "assets/samples/10406.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/6e87fe4893ca930227d3491f46947783_images.jpg"
+    },
+    {
+      "id": "sample-extra-12",
+      "file": "assets/samples/6889.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/01c417703d7775105ba346c691f4700b_images.jpg"
+    },
+    {
+      "id": "sample-extra-13",
+      "file": "assets/samples/6887.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/617c3ae8332e7ace12ceaa500bdeddec_images.jpg"
+    },
+    {
+      "id": "sample-extra-14",
+      "file": "assets/samples/6880.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/dc32ed33c6d783860dc7b5e9f992c812_images.jpg"
+    },
+    {
+      "id": "sample-extra-15",
+      "file": "assets/samples/8785.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/1d5f9c47ddc8f42deca41e8a17335847_images.jpg"
+    },
+    {
+      "id": "sample-extra-16",
+      "file": "assets/samples/3505.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/d0746f8615346b3fda0b4e178eee0f71_images.jpg"
+    },
+    {
+      "id": "sample-extra-17",
+      "file": "assets/samples/23809.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/17b0802c21a05090373530684cd3209f_images.jpg"
+    },
+    {
+      "id": "sample-extra-18",
+      "file": "assets/samples/54127.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/50c7dd932d347768b05766e5dd231355_images.jpg"
+    },
+    {
+      "id": "sample-extra-19",
+      "file": "assets/samples/59051.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/Carlton-London-Women-Black-Gladiator-Sandals_b8f695202ccc1889f65d57b4000a888f_images.jpg"
+    },
+    {
+      "id": "sample-extra-20",
+      "file": "assets/samples/53130.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/Catwalk-Women-Brown-Sandals_c094f60d90c695681a6b79cf241777fc_images.jpg"
+    },
+    {
+      "id": "sample-extra-21",
+      "file": "assets/samples/42879.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/6ddb4d4164841bb5cef5b7b7f282d563_images.jpg"
+    },
+    {
+      "id": "sample-extra-22",
+      "file": "assets/samples/sunglasses.jpg",
+      "source": "https://images.unsplash.com/photo-1511499767150-a48a237f0083"
+    },
+    {
+      "id": "sample-extra-23",
+      "file": "assets/samples/48124.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/6b6891bafdee4f7a91dc6198bb172de1_images.jpg"
+    },
+    {
+      "id": "sample-extra-24",
+      "file": "assets/samples/52223.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/Lencia-White-Swarovski-Pearl-Necklace_e5da32190af372b0a3a58a27f6616450_images.jpg"
+    },
+    {
+      "id": "sample-extra-25",
+      "file": "assets/samples/extra-25.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/7de446d3e6ec4218c2a71e76aa91ce5a_images.jpg"
+    },
+    {
+      "id": "sample-extra-26",
+      "file": "assets/samples/extra-26.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/3b361aac347e3b1af72cb86d61c8b19c_images.jpg"
+    },
+    {
+      "id": "sample-extra-27",
+      "file": "assets/samples/extra-27.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/c7871dc5618bcfd5fa8ccf417163e6fe_images.jpg"
+    },
+    {
+      "id": "sample-extra-28",
+      "file": "assets/samples/extra-28.jpg",
+      "source": "https://images.riverisland.com/image/upload/t_ProductImagePortraitMedium/f_auto/q_auto/930734_alt8"
+    },
+    {
+      "id": "sample-extra-29",
+      "file": "assets/samples/extra-29.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/5508b88d639f557b7ba8a80763c86396_images.jpg"
+    },
+    {
+      "id": "sample-extra-30",
+      "file": "assets/samples/extra-30.jpg",
+      "source": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=720&q=85"
+    },
+    {
+      "id": "sample-extra-31",
+      "file": "assets/samples/extra-31.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/Elle-Women-Pink-Jacket_4dd700842b9ceae5837058af589a857f_images.jpg"
+    },
+    {
+      "id": "sample-extra-32",
+      "file": "assets/samples/extra-32.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/072446b47aeccf5ef6837c6ec38dee0c_images.jpg"
+    },
+    {
+      "id": "sample-extra-33",
+      "file": "assets/samples/extra-33.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/3905cea42d5b2ccb5366a0a499b4866f_images.jpg"
+    },
+    {
+      "id": "sample-extra-34",
+      "file": "assets/samples/extra-34.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/681972ab94e4dab9560e2263be37aa0f_images.jpg"
+    },
+    {
+      "id": "sample-extra-35",
+      "file": "assets/samples/extra-35.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/Rocky-S-Red-Clutch_6ef925fd1ad1ad8201c607dd14dd5ade_images.jpg"
+    },
+    {
+      "id": "sample-extra-36",
+      "file": "assets/samples/extra-36.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/c5594b4fa6aa61f7288f31d43e8f7e09_images.jpg"
+    },
+    {
+      "id": "sample-complete-001",
+      "file": "assets/samples/sample-complete-001.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/a99378706064903ad719a7e3e70dc654_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-002",
+      "file": "assets/samples/sample-complete-002.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/07d313ec9c6dac1bf0e96188ea300c0b_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-003",
+      "file": "assets/samples/sample-complete-003.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/9e3bafb34e4d576de178770a4a3f7e08_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-004",
+      "file": "assets/samples/sample-complete-004.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/bb57877bfd521c261b60a58ab6e55977_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-005",
+      "file": "assets/samples/sample-complete-005.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/9cd47076b5974b62861d75d7023cd806_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-006",
+      "file": "assets/samples/sample-complete-006.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/5d68c077e031bc76fd0d9c8718d627b3_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-007",
+      "file": "assets/samples/sample-complete-007.jpg",
+      "source": "https://images.riverisland.com/image/upload/f_jpg/q_85/w_800/943749_alt8",
+      "catalog": "https://www.riverisland.com/"
+    },
+    {
+      "id": "sample-complete-008",
+      "file": "assets/samples/sample-complete-008.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/60a6e48d00b1f507b1449f688d915744_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-009",
+      "file": "assets/samples/sample-complete-009.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/5272bee4663e5287309047865c520ff9_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-010",
+      "file": "assets/samples/sample-complete-010.jpg",
+      "source": "https://images.riverisland.com/image/upload/f_jpg/q_85/w_800/946246_alt8",
+      "catalog": "https://www.riverisland.com/"
+    },
+    {
+      "id": "sample-complete-011",
+      "file": "assets/samples/sample-complete-011.jpg",
+      "source": "https://images.riverisland.com/image/upload/f_jpg/q_85/w_800/946107_alt8",
+      "catalog": "https://www.riverisland.com/"
+    },
+    {
+      "id": "sample-complete-012",
+      "file": "assets/samples/sample-complete-012.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/30b322db9ebe8cea9fe70e65b01aa3b2_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-013",
+      "file": "assets/samples/sample-complete-013.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/8e862c170d2380d357a6755dde83204d_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-014",
+      "file": "assets/samples/sample-complete-014.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/48373b0212c02b6c39c53ec2215e1c58_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-015",
+      "file": "assets/samples/sample-complete-015.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/84053f1fbbb0933c6d7ac98e015935d2_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-016",
+      "file": "assets/samples/sample-complete-016.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/Jealous-21-Women-Black-Jeans_6c38590b2ec56b444a760aa56a8ef7e9_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-017",
+      "file": "assets/samples/sample-complete-017.jpg",
+      "source": "https://images.riverisland.com/image/upload/f_jpg/q_85/w_800/941088_alt8",
+      "catalog": "https://www.riverisland.com/"
+    },
+    {
+      "id": "sample-complete-018",
+      "file": "assets/samples/sample-complete-018.jpg",
+      "source": "https://images.riverisland.com/image/upload/f_jpg/q_85/w_800/372055_alt8",
+      "catalog": "https://www.riverisland.com/"
+    },
+    {
+      "id": "sample-complete-019",
+      "file": "assets/samples/sample-complete-019.jpg",
+      "source": "https://images.riverisland.com/image/upload/f_jpg/q_85/w_800/941038_alt8",
+      "catalog": "https://www.riverisland.com/"
+    },
+    {
+      "id": "sample-complete-020",
+      "file": "assets/samples/sample-complete-020.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/4ecba885a17776da8bce7eefe6bc5ac3_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-021",
+      "file": "assets/samples/sample-complete-021.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/135b9776fad74c669c754caaeaad990a_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-022",
+      "file": "assets/samples/sample-complete-022.jpg",
+      "source": "https://images.riverisland.com/image/upload/f_jpg/q_85/w_800/949605_alt8",
+      "catalog": "https://www.riverisland.com/"
+    },
+    {
+      "id": "sample-complete-023",
+      "file": "assets/samples/sample-complete-023.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/22f4c91ec31d7a5f88b2ec29aeaeabf5_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-024",
+      "file": "assets/samples/sample-complete-024.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/ad518fdc7e912c81fb41400fea377c34_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-025",
+      "file": "assets/samples/sample-complete-025.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/Scullers-For-Her-Black-Blazer_ae836af5298ed3aa98da6e2f1c84c5cb_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-026",
+      "file": "assets/samples/sample-complete-026.jpg",
+      "source": "https://images.riverisland.com/image/upload/f_jpg/q_85/w_800/942431_alt8",
+      "catalog": "https://www.riverisland.com/p/grey-faux-fur-collar-cinched-blazer-942431"
+    },
+    {
+      "id": "sample-complete-027",
+      "file": "assets/samples/sample-complete-027.jpg",
+      "source": "https://images.riverisland.com/image/upload/f_jpg/q_85/w_800/372807_alt8",
+      "catalog": "https://www.riverisland.com/"
+    },
+    {
+      "id": "sample-complete-028",
+      "file": "assets/samples/sample-complete-028.jpg",
+      "source": "https://images.riverisland.com/image/upload/f_jpg/q_85/w_800/930602_alt8",
+      "catalog": "https://www.riverisland.com/"
+    },
+    {
+      "id": "sample-complete-029",
+      "file": "assets/samples/sample-complete-029.jpg",
+      "source": "https://images.riverisland.com/image/upload/f_jpg/q_85/w_800/943182_alt8",
+      "catalog": "https://www.riverisland.com/"
+    },
+    {
+      "id": "sample-complete-030",
+      "file": "assets/samples/sample-complete-030.jpg",
+      "source": "https://images.riverisland.com/image/upload/f_jpg/q_85/w_800/939668_alt8",
+      "catalog": "https://www.riverisland.com/"
+    },
+    {
+      "id": "sample-complete-031",
+      "file": "assets/samples/sample-complete-031.jpg",
+      "source": "https://images.riverisland.com/image/upload/f_jpg/q_85/w_800/939508_alt8",
+      "catalog": "https://www.riverisland.com/"
+    },
+    {
+      "id": "sample-complete-032",
+      "file": "assets/samples/sample-complete-032.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/d2127a1293498c6dec58f99d06357d8d_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-033",
+      "file": "assets/samples/sample-complete-033.jpg",
+      "source": "https://contents.mediadecathlon.com/p431748/kc0de39049a9baf442ce683bf717f0e9f/431748_default.jpg?f=800x0&format=jpg&quality=85",
+      "catalog": "https://www.decathlon.es/"
+    },
+    {
+      "id": "sample-complete-034",
+      "file": "assets/samples/sample-complete-034.jpg",
+      "source": "https://images.riverisland.com/image/upload/f_jpg/q_85/w_800/943087_alt8",
+      "catalog": "https://www.riverisland.com/"
+    },
+    {
+      "id": "sample-complete-035",
+      "file": "assets/samples/sample-complete-035.jpg",
+      "source": "https://images.riverisland.com/image/upload/f_jpg/q_85/w_800/947015_alt8",
+      "catalog": "https://www.riverisland.com/"
+    },
+    {
+      "id": "sample-complete-036",
+      "file": "assets/samples/sample-complete-036.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/Femella-Women-Multi-Coloured-Dress_f866e35c53c70998b24e0315dfad8051_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-037",
+      "file": "assets/samples/sample-complete-037.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/Elle-Women-Black-Jumpsuit_999e950e54408d3e1d8ced259daadfea_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-038",
+      "file": "assets/samples/sample-complete-038.jpg",
+      "source": "https://images.riverisland.com/image/upload/f_jpg/q_85/w_800/944903_main",
+      "catalog": "https://www.riverisland.com/"
+    },
+    {
+      "id": "sample-complete-039",
+      "file": "assets/samples/sample-complete-039.jpg",
+      "source": "https://images.riverisland.com/image/upload/f_jpg/q_85/w_800/946273_main",
+      "catalog": "https://www.riverisland.com/"
+    },
+    {
+      "id": "sample-complete-040",
+      "file": "assets/samples/sample-complete-040.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/24fbe91c6ebc5cf3f441e8ba8763e44d_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-041",
+      "file": "assets/samples/sample-complete-041.jpg",
+      "source": "https://images.riverisland.com/image/upload/f_jpg/q_85/w_800/946272_alt8",
+      "catalog": "https://www.riverisland.com/"
+    },
+    {
+      "id": "sample-complete-042",
+      "file": "assets/samples/sample-complete-042.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/5005c97f7141942e09be286e8a7d0b1c_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-043",
+      "file": "assets/samples/sample-complete-043.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/Carlton-London-Women-Casual-Brown-Desert-Boots_2d456013cbb1d1886eeda45fe7a674f1_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-044",
+      "file": "assets/samples/sample-complete-044.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/5b0a6dd6aadd4d4ba230ff849b36481b_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-045",
+      "file": "assets/samples/sample-complete-045.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/d965bc355228a50c27436e62a6971a91_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-046",
+      "file": "assets/samples/sample-complete-046.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/801694f79c5ecae48e1c2c361f3fb283_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-047",
+      "file": "assets/samples/sample-complete-047.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/be6ffa0b5e8e20e319326fc6b28f0cd4_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-048",
+      "file": "assets/samples/sample-complete-048.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/2932a49a2a11a47f442fbcc1b8d46bed_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-049",
+      "file": "assets/samples/sample-complete-049.jpg",
+      "source": "https://images.riverisland.com/image/upload/f_jpg/q_85/w_800/942819_main",
+      "catalog": "https://www.riverisland.com/"
+    },
+    {
+      "id": "sample-complete-050",
+      "file": "assets/samples/sample-complete-050.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/3101e6784596ba83c3fb728bcf5b6187_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-051",
+      "file": "assets/samples/sample-complete-051.jpg",
+      "source": "https://images.riverisland.com/image/upload/f_jpg/q_85/w_800/945866_main",
+      "catalog": "https://www.riverisland.com/"
+    },
+    {
+      "id": "sample-complete-052",
+      "file": "assets/samples/sample-complete-052.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/0291b1572c759c53ee26582071787791_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-053",
+      "file": "assets/samples/sample-complete-053.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/23d345b573b95f6cd311d09ac3fdb462_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-054",
+      "file": "assets/samples/sample-complete-054.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/d0e782df1a7287eb68da5806346605db_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-055",
+      "file": "assets/samples/sample-complete-055.jpg",
+      "source": "https://images.riverisland.com/image/upload/f_jpg/q_85/w_800/935284_main",
+      "catalog": "https://www.riverisland.com/"
+    },
+    {
+      "id": "sample-complete-056",
+      "file": "assets/samples/sample-complete-056.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/French-Connection-Women-Beige-Clutch_41c343d3db1461f9ba4fd8e5e0211906_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-057",
+      "file": "assets/samples/sample-complete-057.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/acaa68bebdb2b22aa581e18cdc020cc4_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-058",
+      "file": "assets/samples/sample-complete-058.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/Fabindia-Silver-Earrings_1b13befaf4eb280de962dbe82b3e630a_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-059",
+      "file": "assets/samples/sample-complete-059.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/3aeca43613f13acab9f6fe3c7c4b5888_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-060",
+      "file": "assets/samples/sample-complete-060.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/8a5b9878b2ebfa6700d9fd0d809a70f6_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-061",
+      "file": "assets/samples/sample-complete-061.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/Lucera-Women-Gold-Ring_4fb8dbed9144814b918df9181e968e2b_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-062",
+      "file": "assets/samples/sample-complete-062.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/Van-Heusen-Unisex-Brown-Sunglasses_2099ffb4f8eb9fd28b80922f653aa42a_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-063",
+      "file": "assets/samples/sample-complete-063.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/48d4bab0cdb6c4c0979db7eb78963882_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-064",
+      "file": "assets/samples/sample-complete-064.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/Adidas-Unisex-Blue-Capf0fdfddb2e26677c8067afe9586c6cba_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-065",
+      "file": "assets/samples/sample-complete-065.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/fa0228df29b9f0e6f46a58f62fed8038_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-066",
+      "file": "assets/samples/sample-complete-066.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/b6ce056db1bd25c43ef25b1e1cb42ab6_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-067",
+      "file": "assets/samples/sample-complete-067.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/8eee4563e14cf451b07f27761fd6535f_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    },
+    {
+      "id": "sample-complete-068",
+      "file": "assets/samples/sample-complete-068.jpg",
+      "source": "https://assets.myntassets.com/v1/images/style/properties/6e0e3cadb479ef0bcc1e7b328e14fdd7_images.jpg",
+      "catalog": "https://huggingface.co/datasets/ceyda/fashion-products-small"
+    }
+  ]
+}
